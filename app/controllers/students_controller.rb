@@ -20,7 +20,6 @@ class StudentsController < ApplicationController
     redirect_to student_path(@student)
   end
 
-  # add edit and update methods here
 
   def edit
     @student = Student.find(params[:id])
