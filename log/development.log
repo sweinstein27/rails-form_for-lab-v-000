@@ -780,3 +780,31 @@ Started GET "/students/new" for 173.52.113.65 at 2018-09-06 17:12:44 +0000
 Processing by StudentsController#new as HTML
   Rendered students/new.html.erb within layouts/application (16.6ms)
 Completed 200 OK in 34312ms (Views: 272.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+title { "Computer Science" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+. (called from block (2 levels) in <top (required)> at /home/sweinstein27/rails-form_for-lab-v-000/spec/factories/school_classes.rb:3)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+room_number { 5 }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+. (called from block (2 levels) in <top (required)> at /home/sweinstein27/rails-form_for-lab-v-000/spec/factories/school_classes.rb:4)
